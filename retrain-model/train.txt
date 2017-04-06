@@ -1,0 +1,38 @@
+1 It was terribly cold and nearly dark on the last evening of the old year, and the snow was falling fast. 
+1 terribly cold
+1 terribly
+1 cold
+
+1 In the cold and the darkness, a poor little girl, with bare head and naked feet, roamed through the streets. 
+1 cold
+1 darkness
+1 poor little
+1 poor
+1 bare head
+1 naked feet
+
+1 Her little hands were almost frozen with the cold. 
+1 frozen
+1 cold
+
+1 Ah! perhaps a burning match might be some good, if she could draw it from the bundle and strike it against the wall, just to warm her fingers.
+3 draw
+3 good
+1 if she could
+1 just to warm
+3 warm
+
+3 She drew one out - "scratch!" how it sputtered as it burnt!
+3 drew
+3 sputtered
+
+3 It gave a warm, bright light, like a little candle, as she held her hand over it. 
+3 warm
+3 bright light
+3 bright
+
+3 It was really a wonderful light.
+
+3 It seemed to the little girl that she was sitting by a large iron stove, with polished brass feet and a brass ornament.
+3 polished brass feet 
+3 brass ornament
