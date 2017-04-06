@@ -1,7 +1,7 @@
 # $1: decompress package of stanford-corenlp.
 # $2: folder that contain the retrain files.
 # Example:
-# ./__retrain.sh ~/stanford-corenlp retrain-model
+# ./__retrain.sh ~/stanford-corenlp data/retrain-model
 # ----------------------------------------
 lib=$1
 CLASS_PATH=${lib}/stanford-corenlp-3.6.0.jar:${lib}/stanford-corenlp-3.6.0-models.jar:${lib}/stanford-corenlp-3.6.0-javadoc.jar:${lib}/ejml-0.23.jar:${lib}/slf4j-api.jar:${lib}/slf4j-simple.jar:${lib}/joda-time.jar:${lib}/jollyday.jar
