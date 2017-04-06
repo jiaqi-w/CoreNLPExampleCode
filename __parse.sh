@@ -12,7 +12,7 @@ input=$2
 output=$3
 
 # Update/recompile the StanfordParser.java
-javac -d bin -sourcepath src -cp ${CLASS_PATH} src/edu/ucsc/soe/jiaqi/parser/StanfordParser.java
+javac -d bin -sourcepath src -cp ${CLASS_PATH} src/main/java/edu/ucsc/soe/nlp/parser/StanfordParser.java
 
 echo "Parsing ... "
-java -cp bin:${CLASS_PATH} -Xmx2g edu.ucsc.soe.jiaqi.parser/StanfordParser ${input} ${output}  2>/dev/null
+java -cp bin:${CLASS_PATH} -Xmx2g main.java.edu.ucsc.soe.nlp.parser/StanfordParser ${input} ${output}  2>/dev/null
