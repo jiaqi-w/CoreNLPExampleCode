@@ -1,14 +1,16 @@
 # CoreNLPExampleCode
 
+Here are simple examples for you to quickly try the Stanford CoreNLP tools for parsing and retraining.
+
 Download Stanford CoreNLP NLP Toolkit
 Here are two links for the online demo, they are basically the same.
 http://nlp.stanford.edu:8080/corenlp/
 http://corenlp.run/
 
 If you would like to use Stanford toolkits for dependency parsing or sentiment analysis, please follow the instruction below:
-1. Download Stanford CoreNLP 3.6:
+1. Download Stanford CoreNLP 3.7:
     http://stanfordnlp.github.io/CoreNLP/download.html
-    Unzip/tar the package, you will have the decompress folder, such as stanford-corenlp/.
+    Unzip/tar the package, you will have the decompress folder ${STANFORD_HOME}, such as ~/stanford-corenlp-full-2016-10-31/.
 
 2. Download Java8 JDK ( Java SE Development Kit 8u73), click the "Accept License Agreement", then pick the right one to download for your working environment.
     http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -34,7 +36,7 @@ Remember the decompress folder name in Step 1 if you would use specific classpat
     http://nlp.stanford.edu/sentiment/code.html
 
     Parse Dependency:
-    ./__parse.sh ~/stanford-corenlp data/ data-parsed.txt
+    ./__parse.sh ${STANFORD_HOME} data/poem.txt data/poem-parsed.txt
 
     Retrain Sentiment Model:
-    ./__retrain.sh ~/stanford-corenlp retrain-model
+    ./__retrain.sh ${STANFORD_HOME} retrain-model

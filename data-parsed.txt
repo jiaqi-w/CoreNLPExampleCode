@@ -1,0 +1,298 @@
+-------------------------------
+Read from file: data/poem.txt
+Total number of lines is 7
+
+Read from line 1: The total number of sentences in this line is: 1
+
+Sentence 1: I'm lost in the middle of my birthday.
+
+sentiment results: Negative
+
+parse tree: 
+(ROOT (S (NP (PRP I)) (VP (VBP 'm) (VP (VBN lost) (PP (IN in) (NP (NP (DT the) (NN middle)) (PP (IN of) (NP (PRP$ my) (NN birthday))))))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, lost-3)
+nsubjpass(lost-3, I-1)
+auxpass(lost-3, 'm-2)
+case(middle-6, in-4)
+det(middle-6, the-5)
+nmod(lost-3, middle-6)
+case(birthday-9, of-7)
+nmod:poss(birthday-9, my-8)
+nmod(middle-6, birthday-9)
+punct(lost-3, .-10)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, lost-3)
+nsubjpass(lost-3, I-1)
+auxpass(lost-3, 'm-2)
+case(middle-6, in-4)
+det(middle-6, the-5)
+nmod:in(lost-3, middle-6)
+case(birthday-9, of-7)
+nmod:poss(birthday-9, my-8)
+nmod:of(middle-6, birthday-9)
+punct(lost-3, .-10)
+
+
+Read from line 2: The total number of sentences in this line is: 1
+
+Sentence 1: I want my friends, their touch, with the earth's last love.
+
+sentiment results: Very positive
+
+parse tree: 
+(ROOT (S (NP (PRP I)) (VP (VBP want) (NP (NP (NP (PRP$ my) (NNS friends)) (, ,) (NP (PRP$ their) (NN touch)) (, ,)) (PP (IN with) (NP (NP (DT the) (NN earth) (POS 's)) (JJ last) (NN love))))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+nmod:poss(friends-4, my-3)
+dobj(want-2, friends-4)
+punct(friends-4, ,-5)
+nmod:poss(touch-7, their-6)
+appos(friends-4, touch-7)
+punct(friends-4, ,-8)
+case(love-14, with-9)
+det(earth-11, the-10)
+nmod:poss(love-14, earth-11)
+case(earth-11, 's-12)
+amod(love-14, last-13)
+nmod(want-2, love-14)
+punct(want-2, .-15)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, want-2)
+nsubj(want-2, I-1)
+nmod:poss(friends-4, my-3)
+dobj(want-2, friends-4)
+punct(friends-4, ,-5)
+nmod:poss(touch-7, their-6)
+appos(friends-4, touch-7)
+punct(friends-4, ,-8)
+case(love-14, with-9)
+det(earth-11, the-10)
+nmod:poss(love-14, earth-11)
+case(earth-11, 's-12)
+amod(love-14, last-13)
+nmod:with(want-2, love-14)
+punct(want-2, .-15)
+
+
+Read from line 3: The total number of sentences in this line is: 1
+
+Sentence 1: I will take life's final offering, I will take the human's last blessing.
+
+sentiment results: Positive
+
+parse tree: 
+(ROOT (S (S (NP (PRP I)) (VP (MD will) (VP (VB take) (NP (NP (NN life) (POS 's)) (JJ final) (NN offering))))) (, ,) (NP (PRP I)) (VP (MD will) (VP (VB take) (NP (NP (DT the) (JJ human) (POS 's)) (JJ last) (NN blessing)))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, take-3)
+nsubj(take-3, I-1)
+aux(take-3, will-2)
+nmod:poss(offering-7, life-4)
+case(life-4, 's-5)
+amod(offering-7, final-6)
+dobj(take-3, offering-7)
+punct(take-3, ,-8)
+nsubj(take-11, I-9)
+aux(take-11, will-10)
+parataxis(take-3, take-11)
+det(human-13, the-12)
+nmod:poss(blessing-16, human-13)
+case(human-13, 's-14)
+amod(blessing-16, last-15)
+dobj(take-11, blessing-16)
+punct(take-3, .-17)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, take-3)
+nsubj(take-3, I-1)
+aux(take-3, will-2)
+nmod:poss(offering-7, life-4)
+case(life-4, 's-5)
+amod(offering-7, final-6)
+dobj(take-3, offering-7)
+punct(take-3, ,-8)
+nsubj(take-11, I-9)
+aux(take-11, will-10)
+parataxis(take-3, take-11)
+det(human-13, the-12)
+nmod:poss(blessing-16, human-13)
+case(human-13, 's-14)
+amod(blessing-16, last-15)
+dobj(take-11, blessing-16)
+punct(take-3, .-17)
+
+
+Read from line 4: The total number of sentences in this line is: 2
+
+Sentence 1: Today my sack is empty.
+
+sentiment results: Negative
+
+parse tree: 
+(ROOT (S (NP-TMP (NN Today)) (NP (PRP$ my) (NN sack)) (VP (VBZ is) (ADJP (JJ empty))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, empty-5)
+nmod:tmod(empty-5, Today-1)
+nmod:poss(sack-3, my-2)
+nsubj(empty-5, sack-3)
+cop(empty-5, is-4)
+punct(empty-5, .-6)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, empty-5)
+nmod:tmod(empty-5, Today-1)
+nmod:poss(sack-3, my-2)
+nsubj(empty-5, sack-3)
+cop(empty-5, is-4)
+punct(empty-5, .-6)
+
+Sentence 2: I have given completely whatever I had to give.
+
+sentiment results: Neutral
+
+parse tree: 
+(ROOT (S (NP (PRP I)) (VP (VBP have) (VP (VBN given) (ADVP (RB completely)) (SBAR (WHNP (WDT whatever)) (S (NP (PRP I)) (VP (VBD had) (S (VP (TO to) (VP (VB give))))))))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, given-3)
+nsubj(given-3, I-1)
+aux(given-3, have-2)
+advmod(had-7, completely-4)
+dobj(had-7, whatever-5)
+nsubj(had-7, I-6)
+ccomp(given-3, had-7)
+mark(give-9, to-8)
+xcomp(had-7, give-9)
+punct(given-3, .-10)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, given-3)
+nsubj(given-3, I-1)
+aux(given-3, have-2)
+advmod(had-7, completely-4)
+dobj(had-7, whatever-5)
+nsubj(had-7, I-6)
+ccomp(given-3, had-7)
+mark(give-9, to-8)
+xcomp(had-7, give-9)
+punct(given-3, .-10)
+
+
+Read from line 5: The total number of sentences in this line is: 1
+
+Sentence 1: In return if I receive anything
+
+sentiment results: Neutral
+
+parse tree: 
+(ROOT (PP (IN In) (NP (NP (NN return)) (SBAR (IN if) (S (NP (PRP I)) (VP (VBP receive) (NP (NN anything))))))))
+
+basic dependencies: 
+root(ROOT-0, return-2)
+case(return-2, In-1)
+mark(receive-5, if-3)
+nsubj(receive-5, I-4)
+dep(return-2, receive-5)
+dobj(receive-5, anything-6)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, return-2)
+case(return-2, In-1)
+mark(receive-5, if-3)
+nsubj(receive-5, I-4)
+dep(return-2, receive-5)
+dobj(receive-5, anything-6)
+
+
+Read from line 6: The total number of sentences in this line is: 1
+
+Sentence 1: some love, some forgiveness
+
+sentiment results: Positive
+
+parse tree: 
+(ROOT (NP (NP (DT some) (NN love)) (, ,) (NP (DT some) (NN forgiveness))))
+
+basic dependencies: 
+root(ROOT-0, love-2)
+det(love-2, some-1)
+punct(love-2, ,-3)
+det(forgiveness-5, some-4)
+appos(love-2, forgiveness-5)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, love-2)
+det(love-2, some-1)
+punct(love-2, ,-3)
+det(forgiveness-5, some-4)
+appos(love-2, forgiveness-5)
+
+
+Read from line 7: The total number of sentences in this line is: 1
+
+Sentence 1: then I will take it with me when I step on the boat that crosses to the festival of the wordless end.
+
+sentiment results: Positive
+
+parse tree: 
+(ROOT (S (ADVP (RB then)) (NP (PRP I)) (VP (MD will) (VP (VB take) (NP (PRP it)) (PP (IN with) (NP (PRP me))) (SBAR (WHADVP (WRB when)) (S (NP (PRP I)) (VP (VB step) (PP (IN on) (NP (NP (DT the) (NN boat)) (SBAR (WHNP (WDT that)) (S (VP (VBZ crosses) (PP (TO to) (NP (NP (DT the) (NN festival)) (PP (IN of) (NP (DT the) (JJ wordless) (NN end))))))))))))))) (. .)))
+
+basic dependencies: 
+root(ROOT-0, take-4)
+advmod(take-4, then-1)
+nsubj(take-4, I-2)
+aux(take-4, will-3)
+dobj(take-4, it-5)
+case(me-7, with-6)
+nmod(take-4, me-7)
+advmod(step-10, when-8)
+nsubj(step-10, I-9)
+advcl(take-4, step-10)
+case(boat-13, on-11)
+det(boat-13, the-12)
+nmod(step-10, boat-13)
+nsubj(crosses-15, that-14)
+acl:relcl(boat-13, crosses-15)
+case(festival-18, to-16)
+det(festival-18, the-17)
+nmod(crosses-15, festival-18)
+case(end-22, of-19)
+det(end-22, the-20)
+amod(end-22, wordless-21)
+nmod(festival-18, end-22)
+punct(take-4, .-23)
+
+collapsed, CC-processed dependencies: 
+root(ROOT-0, take-4)
+advmod(take-4, then-1)
+nsubj(take-4, I-2)
+aux(take-4, will-3)
+dobj(take-4, it-5)
+case(me-7, with-6)
+nmod:with(take-4, me-7)
+advmod(step-10, when-8)
+nsubj(step-10, I-9)
+advcl(take-4, step-10)
+case(boat-13, on-11)
+det(boat-13, the-12)
+nmod:on(step-10, boat-13)
+nsubj(crosses-15, that-14)
+acl:relcl(boat-13, crosses-15)
+case(festival-18, to-16)
+det(festival-18, the-17)
+nmod:to(crosses-15, festival-18)
+case(end-22, of-19)
+det(end-22, the-20)
+amod(end-22, wordless-21)
+nmod:of(festival-18, end-22)
+punct(take-4, .-23)
+
+
+-------------------------------

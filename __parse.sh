@@ -5,7 +5,7 @@
 # ./__parse.sh ~/stanford-corenlp data/ data-parsed.txt
 # ----------------------------------------
 lib=$1
-CLASS_PATH=${lib}/stanford-corenlp-3.6.0.jar:${lib}/stanford-corenlp-3.6.0-models.jar:${lib}/stanford-corenlp-3.6.0-javadoc.jar:${lib}/ejml-0.23.jar:${lib}/slf4j-api.jar:${lib}/slf4j-simple.jar:${lib}/joda-time.jar:${lib}/jollyday.jar
+CLASS_PATH=${lib}/stanford-corenlp-3.7.0.jar:${lib}/stanford-corenlp-3.7.0-models.jar:${lib}/stanford-corenlp-3.7.0-javadoc.jar:${lib}/ejml-0.23.jar:${lib}/slf4j-api.jar:${lib}/slf4j-simple.jar:${lib}/joda-time.jar:${lib}/jollyday.jar
 #echo ${CLASS_PATH}
 
 input=$2
