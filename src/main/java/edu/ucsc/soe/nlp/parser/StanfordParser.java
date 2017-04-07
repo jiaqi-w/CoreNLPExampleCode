@@ -1,4 +1,4 @@
-package edu.ucsc.soe.jiaqi.parser;
+package main.java.edu.ucsc.soe.nlp.parser;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
